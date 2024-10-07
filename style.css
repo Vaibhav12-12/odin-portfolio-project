@@ -5,7 +5,7 @@ body {
 
 .navbar {
     background-color: #1F2937;
-    padding: 16px;
+    padding: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,4 +29,53 @@ body {
 .header-links a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.hero img {
+    width: 220px;
+    height: 100%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-left button {
+    background-color: #3882F6;
+    padding: 8px;
+    margin: 8px 0;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    max-width: 15%;
+}
+
+.hero-left * {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    flex: 1;
 }
