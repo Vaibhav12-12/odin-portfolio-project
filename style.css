@@ -50,10 +50,11 @@ body {
     padding: 24px;
     flex: 1;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .hero img {
-    width: 220px;
+    max-width: 220px;
     height: 100%;
 }
 
@@ -78,6 +79,7 @@ body {
     border: none;
     border-radius: 5px;
     max-width: 12%;
+    min-width: max-content;
 }
 
 .hero-right {
@@ -85,6 +87,7 @@ body {
     flex-direction: column;
     align-items: end;
     flex: 1;
+    gap: 16px;
 }
 
 /* Middle */
@@ -109,6 +112,7 @@ body {
     flex: 1;
     justify-content: space-evenly;
     width: 70%;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -136,6 +140,7 @@ body {
     align-items: center;
     background-color: #E5E7EB;
     padding: 24px;
+    flex-wrap: wrap;
 }
 
 .text {
@@ -179,4 +184,16 @@ body {
     border-radius: 5px;
     max-width: 8%;
     flex: 1;
+    min-width: max-content;
+}
+
+/* Footer */
+
+.odin-footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    color: white;
 }
